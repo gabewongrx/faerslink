@@ -1,0 +1,2 @@
+https://api.fda.gov/drug/event.json?search=patient.drug.medicinalproduct:%22sovaldi%22&count=patient.reaction.reactionmeddrapt.exact
+

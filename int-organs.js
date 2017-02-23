@@ -2,8 +2,10 @@
 	'int_1':{
 		'hover': '<b><u>Brain</u></b><br><span style="color: yellow">Click to see list of adverse events</span><br>',//organ hover content
 		'enable':true,//true/false to enable/disable this organ
-		'url':'#brain',//Goto URL
+		'url':'#bodyADRresults',//Goto URL
 		'target':'same_window',//open link in new window:new_window, open in current window:same_window, or none for nothing.
+		'name':'BRAIN',
+		'arrayID':4,// this is the tracking array ID for the dynamic list generation to correspond with meddra adr's.  Not the best way to track, but place keeper until server can send me JSON.
 		
 		'upColor':'red',//organ color when page loads
 		'upOpacity':'0',// opacity of that color from 0-1 (e.g 0.3, can be 0 to hide it)
@@ -23,8 +25,10 @@
 	'int_2':{
 		'hover': '<b><u>Larynx</u></b><br><span style="color: yellow">Click to see list of adverse events</span><br>',
 		'enable':true,
-		'url':'#adr',
+		'url':'#bodyADRresults',
 		'target':'same_window',
+		'name':'LARYNX',
+		'arrayID':2,
 
 		'upColor':'#FF0000',
 		'upOpacity':'0',
@@ -44,8 +48,10 @@
 	'int_3':{
 		'hover': '<b><u>Thyroid</u></b><br><span style="color: yellow">Click to see list of adverse events</span><br>',
 		'enable':true,
-		'url':'#adr',
+		'url':'#bodyADRresults',
 		'target':'same_window',
+		'name':'THYROID',
+		'arrayID':19,
 
 		'upColor':'#FF0000',
 		'upOpacity':'0',
@@ -65,8 +71,10 @@
 	'int_4':{
 		'hover': '<b><u>Trachea</u></b><br><span style="color: yellow">Click to see list of adverse events</span><br>',
 		'enable':true,
-		'url':'#adr',
+		'url':'#bodyADRresults',
 		'target':'same_window',
+		'name':'TRACHEA',
+		'arrayID':12,
 
 		'upColor':'#FF0000',
 		'upOpacity':'0',
@@ -86,8 +94,10 @@
 	'int_5':{
 		'hover': '<b><u>Lungs</u></b><br><span style="color: yellow">Click to see list of adverse events</span><br>',
 		'enable':true,
-		'url':'#adr',
+		'url':'#bodyADRresults',
 		'target':'same_window',
+		'name':'LUNGS',
+		'arrayID':12,
 
 		'upColor':'#FF0000',
 		'upOpacity':'0',
@@ -107,8 +117,10 @@
 	'int_6':{
 		'hover': '<b><u>Stomach</u></b><br><span style="color: yellow">Click to see list of adverse events</span><br>',
 		'enable':true,
-		'url':'#adr',
+		'url':'#bodyADRresults',
 		'target':'same_window',
+		'name':'STOMACH',
+		'arrayID':18,
 
 		'upColor':'#FF0000',
 		'upOpacity':'0',
@@ -128,8 +140,10 @@
 	'int_7':{
 		'hover': '<b><u>Heart</u></b><br><span style="color: yellow">Click to see list of adverse events</span><br>',
 		'enable':true,
-		'url':'#adr',
+		'url':'#bodyADRresults',
 		'target':'same_window',
+		'name':'HEART',
+		'arrayID':8,
 
 		'upColor':'#FF0000',
 		'upOpacity':'0',
@@ -149,8 +163,10 @@
 	'int_8':{
 		'hover': '<b><u>Spleen</u></b><br><span style="color: yellow">Click to see list of adverse events</span><br>',
 		'enable':true,
-		'url':'#adr',
+		'url':'#bodyADRresults',
 		'target':'same_window',
+		'name':'SPLEEN',
+		'arrayID':11,
 
 		'upColor':'#FF0000',
 		'upOpacity':'0',
@@ -170,8 +186,10 @@
 	'int_9':{
 		'hover': '<b><u>Liver</u></b><br><span style="color: yellow">Click to see list of adverse events</span><br>',
 		'enable':true,
-		'url':'#adr',
+		'url':'#bodyADRresults',
 		'target':'same_window',
+		'name':'LIVER',
+		'arrayID':11,
 
 		'upColor':'#FF0000',
 		'upOpacity':'0',
@@ -191,8 +209,10 @@
 	'int_10':{
 		'hover': '<b><u>Colon - Large Intestine</u></b><br><span style="color: yellow">Click to see list of adverse events</span><br>',
 		'enable':true,
-		'url':'#adr',
+		'url':'#bodyADRresults',
 		'target':'same_window',
+		'name':'COLON',
+		'arrayID':10,
 
 		'upColor':'#FF0000',
 		'upOpacity':'0',
@@ -212,8 +232,10 @@
 	'int_11':{
 		'hover': '<b><u>Small Intestine</u></b><br><span style="color: yellow">Click to see list of adverse events</span><br>',
 		'enable':true,
-		'url':'#adr',
+		'url':'#bodyADRresults',
 		'target':'same_window',
+		'name':'SMALL INTESTINE',
+		'arrayID':18,
 
 		'upColor':'#FF0000',
 		'upOpacity':'0',

@@ -2,7 +2,7 @@
     display: inline-block;
     height:20px;
 	width:70px;
-	background-color:#cc0000;
+	background-color:#d8d504;
 	font-family:arial;
 	font-weight:bold;
 	color:#ffffff;
@@ -13,6 +13,15 @@
 
 #table, th, td {
     border: 2px solid black;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #d8ffef;
 }
 
 /* Style the list */
@@ -49,8 +58,9 @@ ul.tab li a:focus, .active {background-color: #ccc;}
 .tabcontent {
     display: block;
     padding: 6px 12px;
-    border: 1px solid #ccc;
     border-top: none;
+	width: 100%;
+	overflow: auto;
 }
 
 .tabcontent {
